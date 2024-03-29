@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float으로 정렬하기</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-align: center;
+        }
+
+        .wrap {
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+
+        header {
+            width: 800px;
+            height: 80px;
+            background-color: red;
+        }
+
+        nav {
+            width: 800px;
+            height: 40px;
+            background-color: yellow;
+        }
+
+        aside {
+            width: 120px;
+            height: 300px;
+            background-color: tomato;
+        }
+
+        .left_menu {
+            float: left;
+        }
+
+        main {
+            width: 680px;
+            height: 300px;
+            background-color: beige;
+            float: left;
+        }
+
+        section {
+            width: 600px;
+            height: 200px;
+            background-color: blueviolet;
+            display: block;
+            margin: 0 auto;
+        }
+
+        article {
+            width: 600px;
+            height: 40px;
+            background-color: aqua;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            width: 800px;
+            height: 120px;
+            background-color: brown;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1>헤더입니다</h1>
+        </header>
+        <nav>
+            <h3>네비게이션입니다</h3>
+        </nav>
+        <aside class="left_menu">
+            <h5>사이드바입니다</h5>
+        </aside>
+        <main>
+            <h2>메인입니다</h2>
+            <section class="image_section">
+                <h4>섹션입니다</h4>
+            </section>
+            <article class="comment">
+                <h4>아티클입니다</h4>
+            </article>
+        </main>
+        <footer>
+            <h2>푸터입니다</h2>
+        </footer>
+    </div>
+</body>
+
+</html>

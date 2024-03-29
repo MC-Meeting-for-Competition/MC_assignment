@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Green {
+  background-color: green;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /*Green은 container의 자식 입장이지만, Blue입장에서 부모요소이다. 
+    따라서 display: flex;를 써 줘야한다. */
+}
+.Blue {
+  background-color: blue;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Purple {
+  background-color: purple;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Pink {
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}

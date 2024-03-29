@@ -1,0 +1,63 @@
+img {
+  width: 200px;
+  height: 300px;
+  transition: 0.3s;
+}
+
+.rotate_wrap,
+.scale_wrap,
+.skew_wrap,
+.translate_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.rotate_1:hover {
+  transform: rotate(30deg);
+}
+
+.rotate_2:hover {
+  transform: rotateY(150deg);
+}
+
+.rotate_3:hover {
+  transform: rotate(-150deg);
+}
+
+.scale_1:hover {
+  transform: scale(1.05);
+}
+
+.scale_2:hover {
+  transform: scale(0.8);
+}
+
+.scale_3:hover {
+  transform: scaleY(1.1);
+}
+
+.skew_1:hover {
+  transform: skew(30deg);
+}
+
+.skew_2:hover {
+  transform: skew(-30deg);
+}
+
+.skew_3:hover {
+  transform: skew(30deg, 60deg);
+}
+
+.translate_1:hover {
+  transform: translate(30%);
+}
+
+.translate_2:hover {
+  transform: translateY(-10%);
+}
+
+.translate_3:hover {
+  transform: translate(-10%, -10%);
+}
